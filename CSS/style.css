@@ -1,0 +1,206 @@
+
+.container{
+    position: relative;
+    width: 100%;
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.7); /* Задайте прозрачность фона */
+    opacity: 0.2;
+    background-image: url(/image/background.jpg);
+    z-index: -1; /* Фон в заднем плане */
+  }
+
+.main_img{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.photo{
+    width: 500px;
+    height: 750px;
+    border-radius: 50px;
+}
+
+.invt{
+    display: flex;
+    justify-content: center;
+    font-size: 75px;
+    word-break: break-all;
+}
+
+.main_text{
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.text_invt_main{
+    list-style: none;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.time {
+    display: flex;
+    justify-content: center;
+    font-size: 75px;  
+    
+}
+
+.date {
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.image_for_line{
+    
+    width: 120px;
+    height: 200px;
+}
+
+.photo_line{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.present{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.wish_about_present {
+    font-size: 40px;
+}
+
+.comment_info{
+    font-size: 40px;
+}
+
+.confirmation{
+    font-size: 40px;
+}
+
+.info_about_present{
+    font-size: 35px;
+}
+
+.flowers{
+    font-size: 35px;
+}
+
+.inf_about_comm{
+    font-size: 35px;
+}
+
+.inf_about_confirmation{
+    font-size: 35px;
+}
+
+.marriage_grafic{
+    font-size: 70px;
+    text-align: center;
+}
+
+.marriage{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    
+}
+
+.grafic{
+    display: block;
+    align-content: center;
+   
+}
+
+.date_of_marriage{
+    font-size: 35px;
+    font-weight: bold;
+    
+}
+
+.date_of_marriage_info{
+    font-size: 35px;
+    
+}
+
+.text{
+    font-weight: bold;
+}
+
+.religio{
+    color: brown;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+}
+
+.text_map{
+    font-size: 50px;
+}
+
+.list_map{
+    text-align: center;
+    list-style: none;
+    margin-top: 40px;
+}
+
+.text1{
+    margin-left: 100px;
+}
+
+.text2{
+    margin-left: 165px;
+}
+
+.text3{
+    padding-left: 165px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+  }
+   
+  .countdown-item {
+    margin: 0 20px;
+    text-align: center;
+  }
+   
+  .countdown-item span {
+    display: block;
+    font-size: 2em;
+  }
+   
+  .label {
+    font-size: 0.8em;
+    color: #999;
+  }
