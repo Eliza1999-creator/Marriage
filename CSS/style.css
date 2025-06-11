@@ -1,7 +1,13 @@
 
+* {
+    margin: 0;
+    padding: 0;
+   }
+
 .container{
     position: relative;
     width: 100%;
+    margin: 0px, 0px, 0px, 0px;
 }
 
 .container::before {
@@ -46,6 +52,7 @@
     list-style: none;
     text-align: center;
     font-size: 50px;
+    padding-top: 10px;
 }
 
 
@@ -53,7 +60,8 @@
 .time {
     display: flex;
     justify-content: center;
-    font-size: 75px;  
+    font-size: 75px; 
+    margin-top: 50px; 
     
 }
 
@@ -61,12 +69,13 @@
     display: inline-block;
     list-style: none;
     text-align: center;
+    margin-top: 50px;
 }
 
 .line{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: auto;
     margin-top: 100px;
     margin-bottom: 100px;
     
@@ -94,14 +103,27 @@
 
 .wish_about_present {
     font-size: 40px;
+    padding-bottom: 25px;
+}
+
+.info_about_present {
+    padding-bottom: 25px;
+}
+
+.flowers {
+    padding-bottom: 25px
 }
 
 .comment_info{
     font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .confirmation{
     font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 25px;
 }
 
 .info_about_present{
@@ -118,11 +140,13 @@
 
 .inf_about_confirmation{
     font-size: 35px;
+    margin-top: 15px;
 }
 
 .marriage_grafic{
     font-size: 70px;
     text-align: center;
+    margin-top: 80px;
 }
 
 .marriage{
