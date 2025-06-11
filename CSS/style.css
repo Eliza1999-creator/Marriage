@@ -1,13 +1,24 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> e42b0bd803cf2eef8900c9b97cce9df3a71c6493
 * {
     margin: 0;
     padding: 0;
    }
+<<<<<<< HEAD
 
 .container{
     position: relative;
     width: 100%;
     margin: 0px, 0px, 0px, 0px;
+=======
+.container{
+    position: relative;
+    width: 100%;\
+    margin: 0;
+    padding: 0;
+>>>>>>> e42b0bd803cf2eef8900c9b97cce9df3a71c6493
 }
 
 .container::before {
@@ -40,6 +51,8 @@
     justify-content: center;
     font-size: 75px;
     word-break: break-all;
+    margin: 50px;
+    padding: 0;
 }
 
 .main_text{
@@ -75,7 +88,11 @@
 .line{
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     width: auto;
+=======
+    max-width: 100%;
+>>>>>>> e42b0bd803cf2eef8900c9b97cce9df3a71c6493
     margin-top: 100px;
     margin-bottom: 100px;
     
